@@ -1,0 +1,94 @@
+
+body{
+margin: 0;
+padding: 0;
+background-color:#D3DEF5 ;
+   
+
+}
+.wrapper{
+    width: 390px;
+    border-radius: 15px;
+    background-color: #e5e8f5;
+    height: 800px;
+    margin: 56px 150px 250px 150px;
+}
+.hero-section {
+    width: 450px;
+    height: 230px;
+}
+.flex-box {
+    display: block;
+    
+}
+.main{
+    text-align: center;
+    margin-top: -821px;
+    margin-left: 160px;
+    width: 350px;
+    height: 160px;
+    font-size: 17px;
+}
+
+#music,#payment{
+    display: inline;
+    margin-left: 200px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+/********Annual Plan section************/
+.plan-box{
+    background-color:#d9e2f9;
+    box-shadow: #cedaf4;
+    width: 340px;
+    height: 60px;
+    margin-left: 158px;
+    border-radius: 30px;
+    border: none;
+    display: inline-block;
+    padding: 15px;
+    border-style: none;
+}
+#photo{
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding-left: -10px;
+}
+#text{
+    font-size: small;
+    color: rgb(59, 57, 57);
+    margin: 13px;
+    
+}
+#music{
+    float: right;
+    margin-top: -44px;
+    padding-right: 8px;
+    color: #382AE4;
+}
+/*************** Payment Button **********************/
+#payment{
+    display: flex;
+    border-color: #382AE4;;
+    background-color: #382AE4;
+    color: aliceblue;
+    width: 340px;
+    height: 44px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 177px;
+    font-weight: bolder;
+
+
+}
+#cancel-order{
+    margin-left: 300px;
+    text-decoration: none;
+    color: rgb(86, 84, 84);
+    
+    
+}
